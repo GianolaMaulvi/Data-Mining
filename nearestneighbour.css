@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+table#patients {
+	border: 1px solid black;
+	border-collapse:collapse;
+	margin: 20px;
+	padding: 10px;
+}
+table#patients td, table#patients th {
+	text-align: center;
+	border: 1px solid black;
+}
+
+.selected {
+	background-color: #FF0000;
+}
